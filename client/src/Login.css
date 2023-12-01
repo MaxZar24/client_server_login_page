@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #CEDFDF;
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+

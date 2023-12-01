@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #CEDFDF;
+}
+
+.SignUp {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 0 0;
+    border: 1px solid #A9C3B6;
+    border-radius: 20px;
+    width: 600px;
+    padding: 40px;
+    background: #A9C3B6;
+}
+
+label {
+    margin-top: 15px;
+}
+
+form input {
+    width: 300px;
+    height: 35px;
+    text-indent: 1px;
+}
+
+form button {
+    margin: 20px 0 20px 0;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+form .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: unset;
+}
+
+.buttons input {
+    width: 25px;
+    height: 25px;
+    margin: 18px 0 0 0;
+}
+.buttons label {
+    width: 120px;
+    margin: 20px 10px 0 0;
+}
